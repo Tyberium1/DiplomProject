@@ -1,0 +1,198 @@
+body{
+    background-color: #1E252B;
+}
+.nav-menu{
+    display: flex;
+    color: grey;
+    justify-content: space-around;
+    
+}
+.nameOfMaket{
+    color: white;
+}
+.sign{
+    border-radius: 8px;
+    background-color: #FF6E30;
+    color: white;
+    width: 118px;
+    height: 48px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    min-height: 720px;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    color: white;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 56px;
+  }
+  
+  .hero-content h1 span {
+    color: #ff7a29; 
+  }
+  
+  .hero-content h1 .dot {
+    color: #ff7a29; 
+  }
+  
+  .hero-content p {
+    margin-bottom: 30px;
+    color: #bbbbbb;
+    font-size: 18px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    font-size: 16px;
+    background-color: #2e2e38;
+    color: #ffffff;
+    outline: none;
+  }
+  
+  .search-bar button {
+    padding: 15px 25px;
+    background-color: #ff7a29;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-bar button:hover {
+    background-color: #e66a20;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.3s;
+  }
+  
+  .social-icons a img:hover {
+    opacity: 0.7;
+  }
+  
+  .hero-image img {
+    max-width: 500px;
+    height: auto;
+  }
+  
+
+.popularTools {
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+.popularTools h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.popularTools p {
+  font-size: 16px;
+  color: #bbbbbb;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #2e2e38;
+  width: 390px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.card .toolIcon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.toolFree {
+  font-size: 14px;
+  color: #ff7a29;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.ToolPaid {
+  color: #ffa500;
+}
+
+.card p {
+  font-size: 14px;
+  color: #bbbbbb;
+  margin-bottom: 20px;
+}
+
+.toolActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.action-btn:hover {
+  opacity: 0.7;
+}
+
+.visit {
+  background-color: #ff7a29;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.visit:hover {
+  background-color: #e66a20;
+}
