@@ -196,3 +196,12 @@ body{
 .visit:hover {
   background-color: #e66a20;
 }
+.load{
+  display: block;
+  justify-content: center;
+}
+.loadMore{
+  color: #FF6E30;
+  background-color: #FFFFFF1A ;
+  border-radius: 2px;
+}
