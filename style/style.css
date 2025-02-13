@@ -339,3 +339,8 @@ body{
 .visit-btn:hover {
   background-color: #e66a20;
 }
+.cardOfManager{
+  display: flex;
+  color: white;
+  justify-content:  space-around;
+}
