@@ -205,3 +205,26 @@ body{
   background-color: #FFFFFF1A ;
   border-radius: 2px;
 }
+.brandTrusted {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #2e2e38;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.brandTrusted p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #bbbbbb;
+}
+
+.brandTrusted .brands img {
+  height: 40px;
+  margin: 0 10px;
+  opacity: 0.7;
+}
+
+.brandTrusted .brands img:hover {
+  opacity: 1;
+}
