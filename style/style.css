@@ -341,6 +341,58 @@ body{
 }
 .cardOfManager{
   display: flex;
+  justify-content: space-around;
   color: white;
-  justify-content:  space-around;
+}
+.manager{
+  margin-right: 100px;
+}
+
+.arrowLeft{
+  font-size: 30px;
+  color: grey;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.3s ;
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  margin-right: 1600px;
+  margin-top: 250px;
+}
+.arrowLeft:hover{
+  color: #FF6E30;
+  transition: all 0.5s linear;
+  transform: scale(2,2);
+}
+.arrowRight{
+  font-size: 30px;
+  color: grey;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.3s ;
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  margin-left: 1600px;
+  margin-top: 250px;
+}
+.arrowRight:hover{
+  color: #FF6E30;
+  transition: all 0.5s linear;
+  transform: scale(2,2);
+}
+.slaid{
+  display: flex;
+  justify-content: center;
 }
